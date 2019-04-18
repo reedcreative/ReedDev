@@ -1,0 +1,87 @@
+{
+	"data": [{
+		"idx": 4,
+		"title": "App Design <br> <span>Research · Protyping · UX/UI Design</span>",
+		"datalink":"https://jc.reedcreative.info/works/app-design/app-design.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	}, {
+		"idx": 3,
+		"title": "WebSite Design <br> <span>UI Design · Front-end </span>",
+		"datalink":"https://jc.reedcreative.info/works/website-design/website-design.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	},{
+		"idx": 2,
+		"title": "Illustration<br><span>Merchandise · Illustration</span>",
+		"datalink":"https://jc.reedcreative.info/works/illustration/illustration.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	},{
+		"idx": 1,
+		"title": "Branding<br><span>Strategy · Logo · Guidelines</span>",
+		"datalink":"https://jc.reedcreative.info/works/branding/branding.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	},{
+		"idx": 0,
+		"title": "UX Consulting <br> <span>Strategy · Experience map</span>",
+		"datalink":"https://jc.reedcreative.info/works/ux-consulting/ux-consulting.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	},{
+		"idx": 0,
+		"title": "Photography<br><span>Shooting · Design</span>",
+		"datalink":"https://jc.reedcreative.info/works/visual-consulting/visual-consulting.html",
+		"keyvisual": [""],
+		"movie": {
+			"mp4": "",
+			"webm": ""
+		},
+		"clientlogo": "",
+		"client": "",
+		"description": "",
+		"role": "",
+		"date": ""
+	}]
+}
