@@ -101,7 +101,7 @@ body {
     -webkit-align-items: center;
     align-items: center;
 }
-.swiper-slide .role {
+.swiper-container .role {
     position: absolute;
     left: 0;
     width: 100%;
