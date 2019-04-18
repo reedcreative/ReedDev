@@ -83,15 +83,16 @@
   <script src="../../v3/js/swiper.min.js"></script>
 
   <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-		direction: 'vertical',
-		  pagination: {
-			  el: '.swiper-pagination',
-			  dynamicBullets: true,
-			  clickable: true,
-		  },
-    });
-  </script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			direction: 'vertical',
+			lazy: true,
+			pagination: {
+			el: '.swiper-pagination',
+			dynamicBullets: true,
+			clickable: true,
+			},
+		});
+	</script>
 </body>
 </html>

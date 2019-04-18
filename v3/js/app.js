@@ -614,9 +614,9 @@ function orientStart() {
 		// $detailContent.mousemove(function(e){
 		// console.log(this)
 		// });
-		$(document).bind('mousemove', function (e) {
+		/*$(document).bind('mousemove', function (e) {
 			setTranslate(event.pageX + 15, event.pageY - scrollPos + 15, _detailpage_close_btn, 0, 0);
-		});
+		});*/
 	}
 	//if
 	orientStarted = true;
