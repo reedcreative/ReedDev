@@ -54,8 +54,10 @@
 	<meta property="og:description" content="Portfolio web site of Jaki Chen (陳慶福), Full-Stack designer who live in Beijing，China." />
 
 	<link rel="image_src" href="logos/naminsik_logo.png" />
+	<link rel="stylesheet" href="v3/css/swiper.min.css">
 	<link rel="stylesheet" href="v3/css/reset.css">
 	<link rel="stylesheet" href="v3/css/app.css">
+	
 	
 	<!-- Adobe source han serif -->
 	<script>
@@ -1699,7 +1701,21 @@
   			crossorigin="anonymous">
 	</script>
 	<script src="v3/js/app.js"></script>
-	
+	<!-- Swiper JS -->
+	<script src="../../v3/js/swiper.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			direction: 'vertical',
+			lazy: true,
+			pagination: {
+				el: '.swiper-pagination',
+				dynamicBullets: true,
+				clickable: true,
+			},
+		});
+	</script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136586966-2"></script>
 	<script>
