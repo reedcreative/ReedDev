@@ -1,39 +1,75 @@
 <!DOCTYPE html>
 <html lang="zh">
+<head>
 
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      	<div class="swiper-slide">
-			<img src="../../images/works/app-design/01home.png" alt="" class="swiper-lazy">
-			<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+</head>
+<body>
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="cage hero-cover lele-mobile">
+					<div class="project-title">
+						<div class="sub-title">App Design 01</div>
+						<div class="title">乐乐 | 移动社交</div>	
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="cage project-info">
+					<div class="intro">
+						<p>"App for finding people based on interest, Lele" is an social App.<br>
+						it is an application that helps people expand their business contacts.<br>
+						As a startup team, I have worked alone from Research,<br>
+						Information architecture, demand analysis, UX & UI Design. 
+						</p>
+						<ul class="tag">
+							<li><span class="row">Type</span><span class="discription">Research<br>Protyping<br>UX/UI Design</span></li>
+							<li><span class="row">Role</span><span class="discription">Information Architect<br>UX/UI Designer</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="cage icons-set">
+					-icon-sets-
+				</div>
+			</div>
+			<div class="swiper-slide prs_tl prs_4">
+				<div class="cage color-system">
+					<ul class="color-pttrn"><h4>Color System</h4>
+						<li><span class="color-round color-point">#009dff</span><span class="feel point-color">#friendly, #trust, #energy</span></li>
+						<li><span class="color-round color-main">#ebf0f4</span><span class="feel main-color">#balance, #harmony, #easy</span></li>
+						<li><span class="color-round color-support">#a6a6a6</span><span class="feel support-color">#simple, #light</span></li>
+					</ul>
+					<div class="color-theory"> 
+						A balanced design for content is important for social media.<br>
+						So, I designed it as simple as I could. and thought about balance with other contents.
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="cage screen-shot">
+					<ul class="shot-mobile">
+						<li><img src="../../images/works/app-design/lele-home.jpg" alt=""></li>
+						<li><img src="../../images/works/app-design/lele-pub.jpg" alt=""></li>
+						<li><img src="../../images/works/app-design/lele-notification.jpg" alt=""></li>
+						<li><img src="../../images/works/app-design/lele-mine.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-      	<div class="swiper-slide">
-			Slide 2
-		</div>
-      	<div class="swiper-slide">
-			<img src="../../images/works/app-design/03pub.png" alt="" class="swiper-lazy">
-			<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-		</div>
-      	<div class="swiper-slide">
-			<img src="../../images/works/app-design/04notification.png" alt="" class="swiper-lazy">
-			<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-		</div>
-      	<div class="swiper-slide">
-			<img src="../../images/works/app-design/05mine.png" alt="" class="swiper-lazy">
-			<div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
-		</div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-	<div class="role"><strong>Role</strong>&nbsp;&nbsp;Information architecture, PM, UX/UI Designer</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+
 	<!-- Swiper JS -->
 	<script src="../../v3/js/swiper.min.js"></script>
 	<!-- Initialize Swiper -->
 	<script>
 		var swiper = new Swiper('.swiper-container', {
 			direction: 'vertical',
-			lazy: true,
+			autoHeight: true,
 			pagination: {
 				el: '.swiper-pagination',
 				dynamicBullets: true,
@@ -41,6 +77,5 @@
 			},
 		});
 	</script>
-  </div>
-
+</body>
 </html>

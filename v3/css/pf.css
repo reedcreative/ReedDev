@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	position: relative;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: arial, source-han-serif-sc;
+}
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.flex{
+	display: flex;
+	height: 100%;
+}
+.f-center{
+	justify-content: center;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-container .swiper-wrapper .cage{
+	position: relative;
+	width: 84%;
+	height: 100%;
+	padding: 0 8%;
+}
+.swiper-container .swiper-wrapper .height-auto{
+	height: auto;
+}
+.swiper-container .swiper-wrapper .hero-cover .project-title{
+	position: absolute;
+	left: 8%;
+	bottom: 60px;
+}
+.swiper-container .swiper-wrapper .project-info,
+.swiper-container .swiper-wrapper .color-system,
+.swiper-container .swiper-wrapper .screen-shot{
+	background-color: #282828;
+	color: #fff;
+}
+.swiper-container .swiper-wrapper .lele-mobile{
+	background-color: #0083FF;
+	color: #fff;
+}
+.swiper-container .swiper-wrapper .cage .project-title .sub-title{
+	font-size: 14px;
+	position: relative;
+}
+.swiper-container .swiper-wrapper .cage .project-title .sub-title:after{
+	content: "";
+	position: absolute;
+	background-color: #fff;
+	height: 2px;
+	width: 90px;
+	top: 50%;
+	right: -10px;
+	margin-top: -1px;
+}
+.swiper-container .swiper-wrapper .cage .project-title .title{
+	font-size: 26px;
+	line-height: 56px;
+}
+/*------------------------------------------------------------------------*/
+/* 04. project info
+/*------------------------------------------------------------------------*/
+.swiper-container .swiper-wrapper .project-info{
+	display:flex;
+	align-items: center;
+}
+.swiper-container .swiper-wrapper .project-info .intro p{
+	font-size: 30px;
+	line-height: 54px;
+	padding:0;
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .project-info .intro .tag{
+	display: flex;
+}
+.swiper-container .swiper-wrapper .project-info .intro .tag li{
+	margin-left: 10px;
+	width: 20%;
+	line-height: 32px;
+}
+.swiper-container .swiper-wrapper .project-info .intro .tag li .row{
+	display: block;
+	font-size: 16px;
+    color: #aaa;
+    font-weight: 200;
+	line-height: 42px;
+}
+/*------------------------------------------------------------------------*/
+/* 04. color system
+/*------------------------------------------------------------------------*/
+.swiper-container .swiper-wrapper .color-system{
+	display: flex;
+	align-items: center;
+}
+.swiper-container .swiper-wrapper .color-system h4{
+	margin: 0;
+	padding: 0;
+}
+.swiper-container .swiper-wrapper .color-system .color-round{
+	width: 80px;
+	text-align: center;
+	margin-right: 20px;
+}
+.swiper-container .swiper-wrapper .color-system .color-round:before{
+	content: "";
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: aliceblue;
+	display: block;
+	margin-bottom: 10px;
+}
+.swiper-container .swiper-wrapper .color-system .color-point:before{
+	background-color: #009dff;
+}
+.swiper-container .swiper-wrapper .color-system .color-main:before{
+	background-color: #ebf0f4;
+}
+.swiper-container .swiper-wrapper .color-system .color-support:before{
+	background-color: #a6a6a6;
+}
+.swiper-container .swiper-wrapper .color-system .feel{
+	margin-top: -20px;
+	width: 200px;
+}
+.swiper-container .swiper-wrapper .color-system .feel:before{
+	content:"";
+	color:rgba(255,255,255,.45);
+	font-size:12px;
+	display: block;
+}
+.swiper-container .swiper-wrapper .color-system .point-color:before{
+	content:"Point color";
+}
+.swiper-container .swiper-wrapper .color-system .main-color:before{
+	content:"Main color";
+}
+.swiper-container .swiper-wrapper .color-system .support-color:before{
+	content:"Support color";
+}
+.swiper-container .swiper-wrapper .color-system ul li{
+	padding: 20px 0;
+	display: flex;
+    align-items: center;
+}
+.swiper-container .swiper-wrapper .color-system  .color-theory{
+	font-size: 2.6vw;
+    line-height: 3.5vw;
+    font-weight: 600;
+	color:rgba(255,255,255,.25);
+	padding: 0 0 0 25%;
+}
+/*------------------------------------------------------------------------*/
+/* 05. screen shot
+/*------------------------------------------------------------------------*/
+.swiper-wrapper .screen-shot .shot-mobile{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+}
+.swiper-wrapper .screen-shot .shot-mobile li{
+	width: 25%;
+	margin-right: 15px;
+}
+.swiper-wrapper .screen-shot .shot-mobile li:last-child{
+	margin-right: 0px;
+}
+.swiper-wrapper .screen-shot .shot-mobile li img{
+	width: 100%;
+	height: auto;
+}
