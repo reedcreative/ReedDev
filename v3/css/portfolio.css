@@ -6,6 +6,7 @@ html, body{
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	background-color: #0c101c;
 }
 ul, li{
 	padding: 0;
@@ -30,6 +31,7 @@ ul, li{
 	position: absolute;
 	left: 8%;
 	bottom: 60px;
+	z-index: 50;
 }
 .swiper-container .swiper-wrapper .project-info,
 .swiper-container .swiper-wrapper .color-system,
@@ -38,13 +40,39 @@ ul, li{
 	color: #fff;
 }
 .swiper-container .swiper-wrapper .lele-mobile{
-	background: #0083ff url("") center center no-repeat;
-	background-size: 100% auto;
+	background: #0083ff url("../../images/works/app-design/01.JPG") right bottom no-repeat;
+	background-size:cover;
+	color: #fff;
+}
+/*.swiper-container .swiper-wrapper .lele-mobile:after{
+	content:"";
+	height:100%;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	background: rgba(0, 0, 0, 0.3);
+}*/
+.swiper-container .swiper-wrapper .jin-mall{
+	background: #ff3838 url("../../images/works/app-design/02.JPG") center center no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.swiper-container .swiper-wrapper .tuoshi-subscription{
+	background: #ff6c00 url("../../images/works/app-design/03.JPG") center bottom no-repeat;
+	background-size:cover;
+	color: #fff;
+}
+.swiper-container .swiper-wrapper .miao-miao{
+	background: #02daa5 url("../../images/works/app-design/04.JPG") center center no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 .swiper-container .swiper-wrapper .website-cover{
-	background: #ff6a00 url("") top center no-repeat;
-	background-size: 100% auto;
+	background: #ff6a00 url("../../images/works/website-design/01.JPG") 10% 70% no-repeat;
+	background-size:cover;
 	color: #fff;
 }
 .swiper-container .swiper-wrapper .photograph-cover{
@@ -56,6 +84,7 @@ ul, li{
 	font-size: 14px;
 	position: relative;
 	display: inline-block;
+	font-family: Q_R,arial;
 }
 .swiper-container .swiper-wrapper .cage .project-title .sub-title:after{
 	content: "";
@@ -72,15 +101,20 @@ ul, li{
 	line-height: 56px;
 	font-family: source-han-serif-sc;
 }
+.swiper-container .swiper-wrapper .cage .project-title .title a{
+	background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuOTkgMTEuODlsLTIuNDQgMi40NGEzLjQ1IDMuNDUgMCAwIDEtNC44OCAwIDMuNDQ3IDMuNDQ3IDAgMCAxLS41MjQtLjY5NkwxMS4yOCAxMi41Yy4wNTQtLjA1NC4xMi0uMDg2LjE4NC0uMTIyLjA3OS4yNjguMjE1LjUyMS40MjYuNzMyYTEuNzI3IDEuNzI3IDAgMCAwIDIuNDQgMGwyLjQ0LTIuNDRhMS43MjYgMS43MjYgMCAwIDAtMi40NC0yLjQ0bC0uODY4Ljg2OWE0LjMyOSA0LjMyOSAwIDAgMC0yLjItLjI0bDEuODQ4LTEuODQ4YTMuNDUgMy40NSAwIDAgMSA0Ljg4IDQuODh6bS02LjQ1MiA0LjAxMmwtLjg2OC44NjhhMS43MjggMS43MjggMCAwIDEtMi40NCAwIDEuNzI4IDEuNzI4IDAgMCAxIDAtMi40NGwyLjQ0LTIuNDRhMS43MjYgMS43MjYgMCAwIDEgMi40NCAwYy4yMS4yMS4zNDcuNDY0LjQyNi43MzEuMDY0LS4wMzcuMTMtLjA2Ny4xODQtLjEyMWwxLjEzMy0xLjEzM2EzLjM5IDMuMzkgMCAwIDAtLjUyMy0uNjk3IDMuNDUgMy40NSAwIDAgMC00Ljg4IDBsLTIuNDQgMi40NGEzLjQ1IDMuNDUgMCAwIDAgNC44OCA0Ljg4bDEuODUtMS44NWE0LjMyNiA0LjMyNiAwIDAgMS0yLjIwMi0uMjM4eiIgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PGNpcmNsZSBzdHJva2U9IiNGRkYiIGN4PSIxMi41IiBjeT0iMTIuNSIgcj0iMTIuNSIvPjwvZz48L3N2Zz4=") right bottom no-repeat;
+	text-decoration: none;
+	color: #fff;
+	padding-right: 32px;
+}
 /*------------------------------------------------------------------------*/
 /* 02. section project-info
 /*------------------------------------------------------------------------*/
 .swiper-container .swiper-wrapper .project-info{
-	display:flex;
-	align-items: center;
+	font-family: Q_R;
 }
 .swiper-container .swiper-wrapper .project-info .intro{
-	padding: 7.5%;
+	padding:7.5%;
 }
 .swiper-container .swiper-wrapper .project-info .intro p{
 	font-size: 30px;
@@ -93,7 +127,7 @@ ul, li{
 	display: flex;
 }
 .swiper-container .swiper-wrapper .project-info .intro .tag li{
-	width: 27%;
+	width: 40%;
 }
 .swiper-container .swiper-wrapper .project-info .intro .tag li .row{
 	display: block;
@@ -122,7 +156,22 @@ ul, li{
 	height:auto;
 	margin-bottom: 40px
 }
-
+.website-image{
+	padding: 7.5%;
+	height: auto;
+	display: block;
+}
+.website-image li{
+	width: 100%;
+	display: block;
+	margin-bottom: 40px;
+}
+.website-image li img{
+	width: 100%;
+	height: auto;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
 @media screen and (min-width:300px) and (max-width:900px) {
 	.swiper-container .swiper-wrapper .project-info .intro p{
 		font-size: 20px;
@@ -149,5 +198,13 @@ ul, li{
 	}
 	.photograph-gallery .gallery-list li img{
 		margin-bottom: 0;
+	}
+	.website-image{
+		padding: 10px;
+		height: auto;
+		display: block;
+	}
+	.website-image li{
+		margin-bottom: 10px;
 	}
 }

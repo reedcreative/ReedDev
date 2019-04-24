@@ -380,7 +380,7 @@ button.swiper-pagination-bullet {
     border-radius: 0;
     position: relative;
     -ms-touch-action: none;
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, .0);
 }
 .swiper-container-horizontal > .swiper-scrollbar {
     position: absolute;
@@ -392,18 +392,18 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-vertical > .swiper-scrollbar {
     position: absolute;
-    right:0px;
-    top: 0;
+    right:2px;
+    top: 1%;
     z-index: 50;
-    width: 4px;
-    height: 100%;
+    width: 2px;
+    height: 98%;
 }
 .swiper-scrollbar-drag {
     height: 100%;
     width: 100%;
     position: relative;
-    background: rgba(255, 255, 255,0);
-    /* border-radius: 10px; */
+    background: rgba(255, 255, 255,.6);
+    border-radius: 2px;
     left: 0;
     top: 0;
 }

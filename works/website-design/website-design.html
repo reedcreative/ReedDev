@@ -1,68 +1,63 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-<meta charset="UTF-8">
-<title>WebSite Design</title>
-	<link rel="stylesheet" href="../../v3/css/reset.css">
-	<link rel="stylesheet" href="../../v3/css/app.css">
+	<meta charset="utf-8">
+	<title>WebSite Design</title>
 </head>
-
-<body id="content">
-	
-	<div class="project-detail-introl">
-		
-		<section class="hero-banner">
-			<div class="flex-c" id="sub-page-title">
-				<div class="holder-title">
-					<div class="title">
-						<div class="row first">WebSite</div>
-						<div class="row second">Design</div>
+<body>
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			
+			<div class="swiper-slide" style="height: 100%;">
+				<div class="cage hero-cover website-cover">
+					<div class="project-title">
+						<div class="sub-title">WebSite Design</div>
+						<div class="title">恒米 | 电商体验平台</div>	
 					</div>
-					<div class="project-type"><span>UI Design · Development</span></div>
 				</div>
 			</div>
-			<div class="hero-bg"></div>
-		</section>
-
-		<section class="project-info">
-			<div class="info-cage">
-				<div class="row flex">
-					<div class="title">Type</div>
-					<div class="details">Art Direction, Photography, Design</div>
-				</div>
-				<div class="row flex">
-					<div class="title">Role</div>
-					<div class="details">Information Architecture, UI Designer, Front-end developer</div>
-				</div>
-			</div>
-			<div class="img-cage">
-				<div class="image-holder">
-					<img src="../../images/works/website-design/poliquant01.png" alt=""/>
-					<img src="../../images/works/website-design/poliquant01.png" alt=""/>
-					<img src="../../images/works/website-design/poliquant01.png" alt=""/>
+			<div class="swiper-slide" style="height: auto;">
+				<div class="cage project-info">
+					<div class="intro">
+						<p>
+							"E-commerce experience platform, Henmi" is an online platform. <br>
+							It used to help merchants improve product service and quality.<br>
+							As a Smart team, I have worked alone from Research, Information architecture, demand analysis, UX & UI Design. 
+						</p>
+						<ul class="tag">
+							<li><span class="row">Type</span><span class="discription">UX/UI Design<br>Rapid Protyping<br>Research</span></li>
+							<li><span class="row">Role</span><span class="discription">Information Architect<br>Product Manager<br>UX/UI Designer</span></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="info-cage">
-				<div class="row flex">
-					<div class="title">Type</div>
-					<div class="details">Art Direction, Photography, Design</div>
-				</div>
-				<div class="row flex">
-					<div class="title">Role</div>
-					<div class="details">Information Architecture, UI Designer, Front-end developer</div>
-				</div>
+			
+			<div class="swiper-slide" style="height: auto;">
+				<ul class="website-image">
+					<li><img src="images/works/website-design/02.jpg" alt=""></li>
+					<li><img src="images/works/website-design/03.jpg" alt=""></li>
+				</ul>
 			</div>
-			<div class="img-cage">
-				<div class="image-holder">
-					<img src="../../images/works/website-design/sofa01.png" alt=""/>
-					<img src="../../images/works/website-design/sofa02.png" alt=""/>
-					<img src="../../images/works/website-design/sofa03.png" alt=""/>
-				</div>
-			</div>
-		</section>
-
-		<div class="my-copy"> <span>陳慶福</span><br> &copy; JakiChen 2019 </div>
+	  </div>
+		<!-- Add Scroll Bar -->
+		<div class="swiper-scrollbar"></div>
 	</div>
-	
+
+	<!-- Swiper JS --> 
+	<script src="v3/js/swiper.min.js"></script>
+	<!-- Initialize Swiper --> 
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			direction: 'vertical',
+			slidesPerView: 'auto',
+			freeMode: true,
+				scrollbar: {
+					el: '.swiper-scrollbar',
+					hide:true,
+			},
+			mousewheel: true,
+		});
+	  </script>
 </body>
 </html>
