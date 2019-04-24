@@ -40,7 +40,7 @@ ul, li{
 	color: #fff;
 }
 .swiper-container .swiper-wrapper .lele-mobile{
-	background: #0083ff url("../../images/works/app-design/01.JPG") right bottom no-repeat;
+	background: #0083ff url("../../images/works/app-design/01.jpg") right bottom no-repeat;
 	background-size:cover;
 	color: #fff;
 }
@@ -55,13 +55,13 @@ ul, li{
 	background: rgba(0, 0, 0, 0.3);
 }*/
 .swiper-container .swiper-wrapper .jin-mall{
-	background: #ff3838 url("../../images/works/app-design/02.JPG") center center no-repeat;
+	background: #ff3838 url("../../images/works/app-design/02.jpg") center center no-repeat;
 	background-size: cover;
 	color: #fff;
 }
 
 .swiper-container .swiper-wrapper .tuoshi-subscription{
-	background: #ff6c00 url("../../images/works/app-design/03.JPG") center bottom no-repeat;
+	background: #ff6c00 url("../../images/works/app-design/03.jpg") center bottom no-repeat;
 	background-size:cover;
 	color: #fff;
 }
@@ -71,7 +71,7 @@ ul, li{
 	color: #fff;
 }
 .swiper-container .swiper-wrapper .website-cover{
-	background: #ff6a00 url("../../images/works/website-design/01.JPG") 10% 70% no-repeat;
+	background: #ff6a00 url("../../images/works/website-design/01.jpg") 10% 70% no-repeat;
 	background-size:cover;
 	color: #fff;
 }
