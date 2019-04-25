@@ -1,210 +1,75 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body{
-	position: relative;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	background-color: #0c101c;
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    background-color: #0c101c;
 }
-ul, li{
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-/*------------------------------------------------------------------------*/
-/* 01. section cover
-/*------------------------------------------------------------------------*/
 .swiper-container {
-	width: 100%;
-	height: 100%;
+    height: 100%;
+    width: 100%;
 }
-.swiper-container .swiper-wrapper .cage{
+.swiper-slide {
+    display: flex;
+    align-items: center;
+}
+.swiper-slide .cage {
+    width: 66.67%;
+    height: auto;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+	font-family: "Helvetica Neue";
+}
+.swiper-slide .cage .video-contaner{
+	margin: 10px 0;
+}
+.swiper-slide .cage img,
+.swiper-slide .cage video{
+    width: 100%;
+    height: auto;
+	background-color: #fff;
+}
+.swiper-slide .cage h2 {
+    font-size: 14px;
+	font-weight: normal;
+}
+.swiper-slide .cage a {
+    color: #fff;
+	text-decoration:none;
 	position: relative;
-	background-color: #0c101c;
 }
-.swiper-container .swiper-wrapper .hero-cover{
-	height: 100%;
-}
-.swiper-container .swiper-wrapper .hero-cover .project-title{
-	position: absolute;
-	left: 8%;
-	bottom: 60px;
-	z-index: 50;
-}
-.swiper-container .swiper-wrapper .project-info,
-.swiper-container .swiper-wrapper .color-system,
-.swiper-container .swiper-wrapper .screen-shot{
-	background-color: #0c101c;
-	color: #fff;
-}
-.swiper-container .swiper-wrapper .lele-mobile{
-	background: #0083ff url("../../images/works/app-design/01.jpg") right bottom no-repeat;
-	background-size:cover;
-	color: #fff;
-}
-/*.swiper-container .swiper-wrapper .lele-mobile:after{
-	content:"";
-	height:100%;
-	width:100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	background: rgba(0, 0, 0, 0.3);
-}*/
-.swiper-container .swiper-wrapper .jin-mall{
-	background: #ff3838 url("../../images/works/app-design/02.jpg") center center no-repeat;
-	background-size: cover;
-	color: #fff;
-}
-
-.swiper-container .swiper-wrapper .tuoshi-subscription{
-	background: #ff6c00 url("../../images/works/app-design/03.jpg") center bottom no-repeat;
-	background-size:cover;
-	color: #fff;
-}
-.swiper-container .swiper-wrapper .miao-miao{
-	background: #02daa5 url("../../images/works/app-design/04.jpg") center center no-repeat;
-	background-size: cover;
-	color: #fff;
-}
-.swiper-container .swiper-wrapper .website-cover{
-	background: #ff6a00 url("../../images/works/website-design/01.jpg") 10% 70% no-repeat;
-	background-size:cover;
-	color: #fff;
-}
-.swiper-container .swiper-wrapper .photograph-cover{
-	background: #75000c url("../../images/works/visual-consulting/01.JPG") bottom right no-repeat;
-	background-size:cover;
-	color: #fff;
-}
-.swiper-container .swiper-wrapper .cage .project-title .sub-title{
-	font-size: 14px;
-	position: relative;
-	display: inline-block;
-	font-family: Q_R,arial;
-}
-.swiper-container .swiper-wrapper .cage .project-title .sub-title:after{
+.swiper-slide .cage a:after{
 	content: "";
+	height: 1px;
+	width: 100%;
 	position: absolute;
 	background-color: #fff;
-	height: 2px;
-	width: 90px;
-	top: 50%;
-	right: -105px;
-	margin-top: -1px;
+	left: 0px;
+	bottom: -2px;
 }
-.swiper-container .swiper-wrapper .cage .project-title .title{
-	font-size: 26px;
-	line-height: 56px;
-	font-family: source-han-serif-sc, serif;
+.swiper-slide .cage .introl {
+    position: relative;
 }
-.swiper-container .swiper-wrapper .cage .project-title .title a{
-	background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjciIGhlaWdodD0iMjciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuOTkgMTEuODlsLTIuNDQgMi40NGEzLjQ1IDMuNDUgMCAwIDEtNC44OCAwIDMuNDQ3IDMuNDQ3IDAgMCAxLS41MjQtLjY5NkwxMS4yOCAxMi41Yy4wNTQtLjA1NC4xMi0uMDg2LjE4NC0uMTIyLjA3OS4yNjguMjE1LjUyMS40MjYuNzMyYTEuNzI3IDEuNzI3IDAgMCAwIDIuNDQgMGwyLjQ0LTIuNDRhMS43MjYgMS43MjYgMCAwIDAtMi40NC0yLjQ0bC0uODY4Ljg2OWE0LjMyOSA0LjMyOSAwIDAgMC0yLjItLjI0bDEuODQ4LTEuODQ4YTMuNDUgMy40NSAwIDAgMSA0Ljg4IDQuODh6bS02LjQ1MiA0LjAxMmwtLjg2OC44NjhhMS43MjggMS43MjggMCAwIDEtMi40NCAwIDEuNzI4IDEuNzI4IDAgMCAxIDAtMi40NGwyLjQ0LTIuNDRhMS43MjYgMS43MjYgMCAwIDEgMi40NCAwYy4yMS4yMS4zNDcuNDY0LjQyNi43MzEuMDY0LS4wMzcuMTMtLjA2Ny4xODQtLjEyMWwxLjEzMy0xLjEzM2EzLjM5IDMuMzkgMCAwIDAtLjUyMy0uNjk3IDMuNDUgMy40NSAwIDAgMC00Ljg4IDBsLTIuNDQgMi40NGEzLjQ1IDMuNDUgMCAwIDAgNC44OCA0Ljg4bDEuODUtMS44NWE0LjMyNiA0LjMyNiAwIDAgMS0yLjIwMi0uMjM4eiIgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PGNpcmNsZSBzdHJva2U9IiNGRkYiIGN4PSIxMi41IiBjeT0iMTIuNSIgcj0iMTIuNSIvPjwvZz48L3N2Zz4=") right bottom no-repeat;
-	text-decoration: none;
-	color: #fff;
-	padding-right: 32px;
+.swiper-slide .cage .introl .role{
+	font-weight: 300;
+	padding-right: 6px;
 }
-/*------------------------------------------------------------------------*/
-/* 02. section project-info
-/*------------------------------------------------------------------------*/
-.swiper-container .swiper-wrapper .project-info{
-	font-family: Q_R;
+.swiper-slide .cage .introl .link {
+    position: absolute;
+    right: 0;
+    z-index: 1;
 }
-.swiper-container .swiper-wrapper .project-info .intro{
-	padding:7.5%;
-}
-.swiper-container .swiper-wrapper .project-info .intro p{
-	font-size: 30px;
-	line-height: 54px;
-	padding:0;
-	width: 100%;
-}
-.swiper-container .swiper-wrapper .project-info .intro .tag{
-	margin-top: 120px;
-	display: flex;
-}
-.swiper-container .swiper-wrapper .project-info .intro .tag li{
-	width: 40%;
-}
-.swiper-container .swiper-wrapper .project-info .intro .tag li .row{
-	display: block;
-	font-size: 16px;
-    color:rgba(255,255,255,.35);
-    font-weight: 200;
-}
-.swiper-container .swiper-wrapper .project-info .intro .tag li .discription{
-	margin-top: 20px;
-	display: block;
-	font-size: 20px;
-	line-height: 32px;
-}
-/*------------------------------------------------------------------------*/
-/* 03. section
-/*------------------------------------------------------------------------*/
-.photograph-gallery .gallery-list{
-	width: 85%;
-	margin: 0 auto;
-	padding-bottom: 60px;
-}
-.photograph-gallery .gallery-list li{
-}
-.photograph-gallery .gallery-list li img{
-	width: 100%;
-	height:auto;
-	margin-bottom: 40px
-}
-.website-image{
-	padding: 7.5%;
-	height: auto;
-	display: block;
-}
-.website-image li{
-	width: 100%;
-	display: block;
-	margin-bottom: 40px;
-}
-.website-image li img{
-	width: 100%;
-	height: auto;
-	border-bottom-left-radius: 2px;
-	border-bottom-right-radius: 2px;
-}
-@media screen and (min-width:300px) and (max-width:900px) {
-	.swiper-container .swiper-wrapper .project-info .intro p{
-		font-size: 20px;
-		line-height: 34px;
-		padding:0;
-		width: 100%;
+@media screen and (min-width:300px) and (max-width:900px){
+	.swiper-slide .cage{
+		width: 90%;
 	}
-	.swiper-container .swiper-wrapper .project-info .intro .tag{
-		margin: 60px 0 40px 0;
+	.swiper-slide .cage .introl .link{
+		position: inherit;
 		display: block;
-	}
-	.swiper-container .swiper-wrapper .project-info .intro .tag li{
-		width: 100%;
-		margin-top: 30px
-	}
-	.swiper-container .swiper-wrapper .project-info .intro .tag li .discription{
-		margin-top: 12px;
-		display: block;
-		font-size: 20px;
-		line-height: 32px;
-	}
-	.photograph-gallery .gallery-list{
-		width: 100%;
-	}
-	.photograph-gallery .gallery-list li img{
-		margin-bottom: 0;
-	}
-	.website-image{
-		padding: 10px;
-		height: auto;
-		display: block;
-	}
-	.website-image li{
-		margin-bottom: 10px;
+		margin: 5px 0;
 	}
 }
