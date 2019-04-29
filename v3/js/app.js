@@ -854,7 +854,7 @@ function FadeInMotionSet() {
 
 function getInstagram() {
 	var loadedInsta = 0;
-	var token = '37179110.1677ed0.477517b4892f4af4bb113c6a50e6b757',
+	var token = '37179110.1677ed0.2dd02a98686c4d86bb25ce39acaa203c',
 		userid = 37179110,
 		num_photos = maxinstaNum;
 
